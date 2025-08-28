@@ -30,7 +30,7 @@ function App() {
   const openCalendly = (e: React.MouseEvent) => {
     e.preventDefault();
     if (window.Calendly) {
-      window.Calendly.initPopupWidget({url: 'https://calendly.com/d/cscf-yp5-k6t'});
+      window.Calendly.initPopupWidget({url: 'https://calendly.com/mphamilton/30min'});
     }
   };
 
