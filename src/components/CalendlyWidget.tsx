@@ -21,7 +21,7 @@ const CalendlyWidget: React.FC = () => {
     script.onload = () => {
       if (window.Calendly) {
         window.Calendly.initBadgeWidget({
-          url: 'https://calendly.com/d/cscf-yp5-k6t',
+          url: 'https://calendly.com/mphamilton/30min',
           text: 'Schedule time with me',
           color: '#0069ff',
           textColor: '#ffffff'
