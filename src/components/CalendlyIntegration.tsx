@@ -28,7 +28,7 @@ const initCalendly = () => {
 export const openCalendlyPopup = () => {
   if (window.Calendly) {
     window.Calendly.initPopupWidget({
-      url: 'https://calendly.com/d/cscf-yp5-k6t'
+      url: 'https://calendly.com/mphamilton/30min'
     });
   }
 };
